@@ -1,12 +1,14 @@
 ------------------------------------------ COLOR PALETTE -------------------------------------------
 
 local palette = {
-  black = '#212121',
+  black = '#101821', -- this is used as the cursor line, not sure what else
   blue = {
     [1] = '#b8d3ff',
     [2] = '#a6c8ff',
     [3] = '#78a9ff',
     [4] = '#5c97ff',
+    [5] = '#014076',
+    [6] = '#012749',
   },
   cyan = {
     [1] = '#99daff',
@@ -19,8 +21,8 @@ local palette = {
     [2] = '#cac5c4',
     [3] = '#c1c7cd',
     [4] = '#adb5bd',
-    [5] = '#525252',
-    [6] = '#474747',
+    [5] = '#404552', -- line numbers
+    [6] = '#253547',
     [7] = '#262626',
     [8] = '#181818',
   },
@@ -45,6 +47,7 @@ local palette = {
     [2] = '#be95ff',
     [3] = '#a56eff',
     [4] = '#7c3dd6',
+    [5] = '#443175',
   },
   red = {
     [1] = '#ffb3b8',
@@ -63,18 +66,19 @@ local palette = {
     [2] = '#d2a106',
     [3] = '#483700',
     [4] = '#261d00',
+    [5] = '#ffdd00',
   },
 }
 
 local components = {
   -- main
   none = 'NONE',
-  bg = '#080c10',
-  fg = '#b5bdc5',
+  bg = '#000000',
+  fg = '#979ea5',
 
   -- miscellaneous
-  border = '#393939',
-  visual = '#012749',
+  border = palette.purple[5],
+  visual = palette.blue[6],
   tabsel = '#697077',
   tags = '#e07980',
   title = '#5579f0',

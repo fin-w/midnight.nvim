@@ -25,10 +25,10 @@ return {
   LineNr = { fg = p.gray[5] },
   LspInlayHint = { fg = c.hint },
   CursorLineNr = { fg = p.gray[1] },
-  MatchParen = { bg = p.cyan[4] },
+  MatchParen = { fg = p.red[4], bg = p.yellow[5] },
   ModeMsg = { link = 'Normal' },
   MoreMsg = { fg = p.blue[3] },
-  NonText = { fg = c.bg },
+  NonText = { fg = p.gray[6], bg = c.bg },
   Normal = { fg = c.fg, bg = c.bg },
   NormalFloat = { link = 'Normal' },
   Pmenu = { bg = c.bg }, -- TODO: add remaining Pmenu groups during "nvim-cmp" configuration
