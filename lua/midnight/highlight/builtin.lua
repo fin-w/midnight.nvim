@@ -20,7 +20,7 @@ return {
     Folded = { fg = c.bg, bg = p.gray[5], style = 'bold,italic' },
     FoldColumn = { link = 'Folded' },
     SignColumn = { bg = c.bg },
-    IncSearch = { fg = c.gray[1], bg = p.purple[5], style = 'bold' },
+    IncSearch = { fg = p.gray[1], bg = p.purple[5], style = 'bold' },
     Substitute = { fg = c.bg, bg = p.red[1] },
     LineNr = { fg = p.gray[6] },
     LspInlayHint = { fg = c.hint },
