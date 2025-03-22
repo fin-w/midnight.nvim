@@ -9,8 +9,8 @@ M.loaded = false
 M.highlights = {}
 
 function M.load_highlights()
-  M.highlights = require 'midnight.highlight'
-  M.loaded = true
+    M.highlights = require 'midnight.highlight'
+    M.loaded = true
 end
 
 return M
