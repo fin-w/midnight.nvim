@@ -37,7 +37,7 @@ return {
     PmenuThumb = { bg = p.gray[6] },
     Question = { link = 'MoreMsg' },
     QuickFixLine = { link = 'Bold' },
-    Search = { fg = p.gray[1], style = 'bold' },
+    Search = { fg = p.gray[1], bg = p.purple[6] },
     SpecialKey = { link = 'Whitespace' },
     SpellBad = { fg = c.error, style = 'italic,underline' },
     SpellCap = { fg = c.warn, style = 'italic,underline' },
