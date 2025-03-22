@@ -21,7 +21,7 @@ local palette = {
         [2] = '#cac5c4',
         [3] = '#c1c7cd',
         [4] = '#adb5bd',
-        [5] = '#404552', -- line numbers
+        [5] = '#384a5f',
         [6] = '#253547',
         [7] = '#262626',
         [8] = '#181818',
@@ -102,7 +102,7 @@ local components = {
     error = palette.red[3],
     warn = palette.orange[1],
     info = palette.blue[2],
-    hint = palette.gray[4],
+    hint = palette.gray[5],
     success = palette.green[3],
     default = palette.cyan[2],
 }
