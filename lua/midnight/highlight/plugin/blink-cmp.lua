@@ -19,10 +19,10 @@ return {
     -- BlinkCmpSource
     -- BlinkCmpGhostText
     -- BlinkCmpDoc
-    -- BlinkCmpDocBorder
+    BlinkCmpDocBorder = { link = 'Border' },
     -- BlinkCmpDocSeparator
     -- BlinkCmpDocCursorLine
     -- BlinkCmpSignatureHelp
-    -- BlinkCmpSignatureHelpBorder
+    BlinkCmpSignatureHelpBorder = { link = 'Border' },
     -- BlinkCmpSignatureHelpActiveParameter
 }
