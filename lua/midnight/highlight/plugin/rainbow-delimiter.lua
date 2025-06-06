@@ -4,8 +4,8 @@
 -- local c = require('midnight.colors').components
 
 return {
-    RainbowDelimiterA = { link = 'Border' },
-    RainbowDelimiterB = { link = 'Border' },
-    RainbowDelimiterC = { link = 'Border' },
-    RainbowDelimiterD = { link = 'Border' },
+    RainbowDelimiterRed = { link = 'Border' },
+    RainbowDelimiterOrange = { link = 'Border' },
+    RainbowDelimiterYellow = { link = 'Border' },
+    RainbowDelimiterGreen = { link = 'Border' },
 }
