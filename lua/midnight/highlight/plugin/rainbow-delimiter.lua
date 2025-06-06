@@ -8,4 +8,7 @@ return {
     RainbowDelimiterOrange = { link = 'Border' },
     RainbowDelimiterYellow = { link = 'Border' },
     RainbowDelimiterGreen = { link = 'Border' },
+    RainbowDelimiterBlue = { link = 'Border' },
+    RainbowDelimiterViolet = { link = 'Border' },
+    RainbowDelimiterCyan = { link = 'Border' },
 }
