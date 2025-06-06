@@ -4,7 +4,7 @@
 -- local c = require('midnight.colors').components
 
 return {
-    -- BlinkCmpMenu
+    BlinkCmpMenu = { link = 'ColorColumn' },
     BlinkCmpMenuBorder = { link = 'Border' },
     -- BlinkCmpMenuSelection
     -- BlinkCmpScrollBarThumb
