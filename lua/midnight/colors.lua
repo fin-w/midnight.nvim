@@ -36,6 +36,7 @@ local palette = {
     magenta = {
         [1] = '#ff94c3',
         [2] = '#ff7eb6',
+        [3] = '#754c74',
     },
     orange = {
         [1] = '#ff9d57',
@@ -85,7 +86,7 @@ local components = {
     title = '#5579f0',
 
     -- syntax
-    comment = '#878d96',
+    comment = palette.magenta[3],
     constant = '#5080ff',
     field = '#7ac098',
     keyword = '#a665d0',
