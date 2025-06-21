@@ -2,6 +2,8 @@
 
 local palette = {
     black = '#101821', -- this is used as the cursor line, not sure what else
+    earth = '#3e352c',
+    raw_umber = '#52473b',
     blue = {
         [1] = '#b8d3ff',
         [2] = '#a6c8ff',
@@ -50,6 +52,7 @@ local palette = {
         [4] = '#7c3dd6',
         [5] = '#443175',
         [6] = '#2d1f58',
+        [7] = '#3f5b79',
     },
     red = {
         [1] = '#ffb3b8',
@@ -86,7 +89,7 @@ local components = {
     title = '#5579f0',
 
     -- syntax
-    comment = palette.magenta[3],
+    comment = palette.raw_umber,
     constant = '#5080ff',
     field = '#7ac098',
     keyword = '#a665d0',
