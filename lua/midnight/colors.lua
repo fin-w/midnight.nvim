@@ -1,16 +1,22 @@
 ------------------------------------------ COLOR PALETTE -------------------------------------------
 
 local palette = {
-    black = '#101821', -- this is used as the cursor line, not sure what else
-    earth = '#3e352c',
-    raw_umber = '#52473b',
+    graphite = '#101821',
+    black = '#000000',
+
+    -- earth = '#3e352c',
+    -- raw_umber = '#52473b',
+
+    blue_whale = '#364e69',
+    -- blue_smoke = '#2e4258',
+    slate = '#253547',
+    navy_blue = '#012749',
     blue = {
         [1] = '#b8d3ff',
         [2] = '#a6c8ff',
         [3] = '#78a9ff',
         [4] = '#5c97ff',
         [5] = '#014076',
-        [6] = '#012749',
     },
     cyan = {
         [1] = '#99daff',
@@ -24,7 +30,6 @@ local palette = {
         [3] = '#c1c7cd',
         [4] = '#adb5bd',
         [5] = '#384a5f',
-        [6] = '#253547',
         [7] = '#262626',
         [8] = '#181818',
     },
@@ -78,18 +83,18 @@ local palette = {
 local components = {
     -- main
     none = 'NONE',
-    bg = '#000000',
+    bg = palette.black,
     fg = '#979ea5',
 
     -- miscellaneous
     border = palette.purple[5],
-    visual = palette.blue[6],
+    visual = palette.navy_blue,
     tabsel = '#697077',
     tags = '#e07980',
     title = '#5579f0',
 
     -- syntax
-    comment = palette.raw_umber,
+    comment = palette.blue_whale,
     constant = '#5080ff',
     field = '#7ac098',
     keyword = '#a665d0',

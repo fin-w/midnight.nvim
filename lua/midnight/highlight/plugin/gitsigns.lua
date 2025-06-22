@@ -1,5 +1,7 @@
 ------------------------------------- GITSIGNS.NVIM HIGHLIGHTS -------------------------------------
 
+local p = require('midnight.colors').palette
+
 return {
     GitSignsAdd = { link = 'GitNew' },
     GitSignsChange = { link = 'GitDirty' },
@@ -7,5 +9,5 @@ return {
     GitSignsAddInline = { link = 'DiffAdd' },
     GitSignsChangeInline = { link = 'DiffText' },
     GitSignsDeleteInline = { link = 'DiffDelete' },
-    GitSignsCurrentLineBlame = { link = 'Whitespace' },
+    GitSignsCurrentLineBlame = { fg = p.blue_whale, style = 'bold' },
 }
