@@ -1,6 +1,6 @@
 ------------------------------------------ BLINK-CMP HIGHLIGHTS ------------------------------------------
 
--- local p = require('midnight.colors').palette
+local p = require('midnight.colors').palette
 -- local c = require('midnight.colors').components
 
 return {
@@ -11,7 +11,7 @@ return {
     -- BlinkCmpScrollBarGutter
     -- BlinkCmpLabel
     -- BlinkCmpLabelDeprecated
-    -- BlinkCmpLabelMatch
+    BlinkCmpLabelMatch = { fg = p.white },
     -- BlinkCmpLabelDetail
     -- BlinkCmpLabelDescription
     -- BlinkCmpKind
