@@ -1,16 +1,16 @@
 ------------------------------------------ BLINK-CMP HIGHLIGHTS ------------------------------------------
 
 local p = require('midnight.colors').palette
--- local c = require('midnight.colors').components
+local c = require('midnight.colors').components
 
 return {
     -- BlinkCmpMenu = { link = 'ColorColumn' },
     BlinkCmpMenuBorder = { link = 'Border' },
     -- BlinkCmpMenuSelection
-    -- BlinkCmpScrollBarThumb
+    BlinkCmpScrollBarThumb = { bg = c.border },
     -- BlinkCmpScrollBarGutter
     -- BlinkCmpLabel
-    -- BlinkCmpLabelDeprecated
+    BlinkCmpLabelDeprecated = { fg = c.comment, style = 'strikethrough' },
     BlinkCmpLabelMatch = { fg = p.white },
     -- BlinkCmpLabelDetail
     -- BlinkCmpLabelDescription
