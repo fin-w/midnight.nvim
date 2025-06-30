@@ -113,7 +113,7 @@ local components = {
     error = palette.red[3],
     warn = palette.orange[1],
     info = palette.blue[2],
-    hint = palette.gray[5],
+    hint = palette.blue_whale,
     success = palette.green[3],
     default = palette.cyan[2],
 }
