@@ -3,7 +3,7 @@ local c = require('midnight.colors').components
 
 return {
     normal = {
-        a = { fg = c.default, bg = c.blue_whale, gui = 'bold' },
+        a = { fg = c.default, bg = p.blue_whale, gui = 'bold' },
         b = { fg = c.parameter, bg = p.visual },
         c = { fg = c.parameter, bg = p.graphite },
     },
