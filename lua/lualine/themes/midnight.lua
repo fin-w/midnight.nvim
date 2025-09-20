@@ -3,7 +3,7 @@ local c = require('midnight.colors').components
 
 return {
     normal = {
-        a = { fg = c.default, bg = c.border, gui = 'bold' },
+        a = { fg = c.default, bg = p.blue_smoke, gui = 'bold' },
         b = { fg = c.parameter, bg = p.navy_blue },
         c = { fg = c.parameter, bg = p.graphite },
     },
@@ -33,8 +33,8 @@ return {
         c = { fg = c.parameter, bg = p.graphite },
     },
     inactive = {
-        a = { fg = p.navy_blue, bg = p.graphite, gui = 'bold' },
-        b = { fg = p.navy_blue, bg = p.graphite },
-        c = { fg = p.navy_blue, bg = p.graphite },
+        a = { fg = p.slate, bg = p.graphite, gui = 'bold' },
+        b = { fg = p.slate, bg = p.graphite },
+        c = { fg = p.slate, bg = p.graphite },
     }
 }

@@ -10,7 +10,7 @@ local palette = {
     -- raw_umber = '#52473b',
 
     blue_whale = '#364e69',
-    -- blue_smoke = '#2e4258',
+    blue_smoke = '#2e4258',
     slate = '#253547',
     navy_blue = '#012749',
     blue = {
