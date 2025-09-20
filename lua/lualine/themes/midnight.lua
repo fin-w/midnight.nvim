@@ -3,9 +3,9 @@ local c = require('midnight.colors').components
 
 return {
     normal = {
-        a = { bg = c.visual, gui = 'bold' },
-        b = { bg = p.graphite },
-        c = { fg = p.navy_blue, bg = p.graphite },
+        a = { fg = c.parameter, bg = c.visual, gui = 'bold' },
+        b = { fg = c.parameter, bg = p.graphite },
+        c = { fg = c.default, bg = p.graphite },
     },
     insert = {
         a = { fg = p.white, bg = c.border, gui = 'bold' },
