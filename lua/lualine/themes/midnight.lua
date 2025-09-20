@@ -3,38 +3,38 @@ local c = require('midnight.colors').components
 
 return {
     normal = {
-        a = { fg = c.default, bg = p.blue_whale, gui = 'bold' },
+        a = { fg = c.default, bg = c.border, gui = 'bold' },
         b = { fg = c.parameter, bg = p.navy_blue },
         c = { fg = c.parameter, bg = p.graphite },
     },
     insert = {
-        a = { fg = p.white, bg = c.border, gui = 'bold' },
-        b = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        c = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
+        a = { fg = p.black, bg = c.string, gui = 'bold' },
+        b = { fg = c.parameter, bg = p.navy_blue },
+        c = { fg = c.parameter, bg = p.graphite },
     },
     visual = {
-        a = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        b = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        c = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
+        a = { fg = p.black, bg = c.operator, gui = 'bold' },
+        b = { fg = c.parameter, bg = p.navy_blue },
+        c = { fg = c.parameter, bg = p.graphite },
     },
     replace = {
-        a = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        b = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        c = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
+        a = { fg = p.white, bg = c.border, gui = 'bold' },
+        b = { fg = c.parameter, bg = p.navy_blue },
+        c = { fg = c.parameter, bg = p.graphite },
     },
     command = {
-        a = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        b = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        c = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
+        a = { fg = p.black, bg = p.blue[1], gui = 'bold' },
+        b = { fg = c.parameter, bg = p.navy_blue },
+        c = { fg = c.parameter, bg = p.graphite },
     },
     terminal = {
-        a = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        b = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        c = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
+        a = { fg = p.black, bg = p.green[2], gui = 'bold' },
+        b = { fg = c.parameter, bg = p.navy_blue },
+        c = { fg = c.parameter, bg = p.graphite },
     },
     inactive = {
-        a = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        b = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
-        c = { fg = p.navy_blue, bg = p.green[3], gui = 'bold' },
+        a = { fg = p.navy_blue, bg = p.graphite, gui = 'bold' },
+        b = { fg = p.navy_blue, bg = p.graphite },
+        c = { fg = p.navy_blue, bg = p.graphite },
     }
 }
