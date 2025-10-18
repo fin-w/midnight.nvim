@@ -1,32 +1,33 @@
 ------------------------------------------ COLOR PALETTE -------------------------------------------
 
 local palette = {
-    white = '#ffffff',
+    white      = '#ffffff',
 
-    graphite = '#101821',
-    black = '#000000',
+    graphite   = '#101821',
+    black      = '#000000',
 
     -- earth = '#3e352c',
     -- raw_umber = '#52473b',
 
     blue_whale = '#364e69',
     blue_smoke = '#2e4258',
-    slate = '#253547',
-    navy_blue = '#012749',
-    blue = {
+    slate      = '#253547',
+    navy_blue  = '#012749',
+
+    blue       = {
         [1] = '#b8d3ff',
         [2] = '#a6c8ff',
         [3] = '#78a9ff',
         [4] = '#5c97ff',
         [5] = '#014076',
     },
-    cyan = {
+    cyan       = {
         [1] = '#99daff',
         [2] = '#82cfff',
         [3] = '#1192e8',
         [4] = '#013360',
     },
-    gray = {
+    gray       = {
         [1] = '#e0e0e0',
         [2] = '#cac5c4',
         [3] = '#c1c7cd',
@@ -35,24 +36,24 @@ local palette = {
         [7] = '#262626',
         [8] = '#181818',
     },
-    green = {
+    green      = {
         [1] = '#a7f0ba',
         [2] = '#74e792',
         [3] = '#6fdc8c',
         [4] = '#42be65',
         [5] = '#04230a',
     },
-    magenta = {
+    magenta    = {
         [1] = '#ff94c3',
         [2] = '#ff7eb6',
         [3] = '#754c74',
     },
-    orange = {
+    orange     = {
         [1] = '#ff9d57',
         [2] = '#ff832b',
         [3] = '#3e1a00',
     },
-    purple = {
+    purple     = {
         [1] = '#d4bbff',
         [2] = '#be95ff',
         [3] = '#a56eff',
@@ -61,19 +62,19 @@ local palette = {
         [6] = '#2d1f58',
         [7] = '#3f5b79',
     },
-    red = {
+    red        = {
         [1] = '#ffb3b8',
         [2] = '#ff8389',
         [3] = '#fa4d56',
         [4] = '#da1e28',
         [5] = '#2d0709',
     },
-    teal = {
+    teal       = {
         [1] = '#57e5e5',
         [2] = '#08bdba',
         [3] = '#009d9a',
     },
-    yellow = {
+    yellow     = {
         [1] = '#f8e6a0',
         [2] = '#d2a106',
         [3] = '#483700',
