@@ -4,10 +4,10 @@ local p = require('midnight.colors').palette
 
 return {
     MiniClueBorder = { link = 'Border' },
-    MiniClueDescGroup = { fg = p.white },
+    MiniClueDescGroup = { link = 'Normal' },
     MiniClueDescSingle = { fg = p.white },
-    MiniClueNextKey = { link = 'Normal' },
-    MiniClueNextKeyWithPostkeys = { link = 'Italic' },
+    MiniClueNextKey = { fg = p.teal[1] },
+    MiniClueNextKeyWithPostkeys = { fg = p.teal[3] },
     MiniClueSeparator = { link = 'Border' },
     MiniClueTitle = { link = 'Comment' },
 }
