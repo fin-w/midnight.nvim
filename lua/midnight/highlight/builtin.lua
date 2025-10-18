@@ -25,7 +25,7 @@ return {
     LineNr = { fg = p.blue_whale },
     LspInlayHint = { fg = c.hint },
     CursorLineNr = { fg = p.gray[1], bg = p.graphite },
-    MatchParen = { fg = p.red[4], bg = p.yellow[5], style = 'bold' },
+    MatchParen = { bg = p.white, style = 'bold' },
     ModeMsg = { link = 'Normal' },
     MoreMsg = { fg = p.blue[3] },
     NonText = { fg = p.blue_whale },
