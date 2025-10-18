@@ -6,8 +6,9 @@ local palette = {
     graphite   = '#101821',
     black      = '#000000',
 
-    -- earth = '#3e352c',
-    -- raw_umber = '#52473b',
+    pumpkin    = '#e0a076',
+    raw_umber  = '#52473b',
+    earth      = '#3e352c',
 
     blue_whale = '#364e69',
     blue_smoke = '#2e4258',
@@ -106,7 +107,7 @@ local components = {
     namespace = '#a3a0d8',
     operator = '#ff7279',
     parameter = '#50b0e0',
-    string = '#e0a076',
+    string = palette.pumpkin,
     type = '#0ab6ba',
     variable = '#9ac6e0',
 

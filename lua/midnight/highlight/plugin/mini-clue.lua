@@ -6,7 +6,7 @@ return {
     MiniClueBorder = { link = 'Border' },
     MiniClueDescGroup = { link = 'Italic' },
     MiniClueDescSingle = { link = 'Normal' },
-    MiniClueNextKey = { fg = p.yellow[5] },
+    MiniClueNextKey = { fg = p.pumpkin },
     MiniClueNextKeyWithPostkeys = { fg = p.cyan[3] },
     MiniClueSeparator = { link = 'Border' },
     MiniClueTitle = { link = 'Title' },
