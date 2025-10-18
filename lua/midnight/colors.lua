@@ -93,7 +93,7 @@ local components = {
     visual = palette.navy_blue,
     tabsel = '#697077',
     tags = '#e07980',
-    title = '#5579f0',
+    title = palette.purple[5],
 
     -- syntax
     comment = palette.blue_whale,
