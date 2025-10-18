@@ -36,4 +36,5 @@ return {
     require 'midnight.highlight.plugin.nvim-notify',
     require 'midnight.highlight.plugin.leap',
     require 'midnight.highlight.plugin.rainbow-delimiter',
+    require 'midnight.highlight.plugin.mini-clue',
 }
