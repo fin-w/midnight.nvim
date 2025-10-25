@@ -10,6 +10,9 @@ local palette = {
     raw_umber  = '#52473b',
     earth      = '#3e352c',
 
+    cornflower = '#5579f0',
+    violet     = '#6348ab',
+
     blue_whale = '#364e69',
     blue_smoke = '#2e4258',
     slate      = '#253547',
@@ -95,7 +98,7 @@ local components = {
     visual = palette.navy_blue,
     tabsel = '#697077',
     tags = '#e07980',
-    title = palette.purple[5],
+    title = palette.violet,
 
     -- syntax
     comment = palette.blue_whale,
