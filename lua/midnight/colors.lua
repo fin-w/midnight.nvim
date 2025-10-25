@@ -11,7 +11,7 @@ local palette = {
     earth      = '#3e352c',
 
     cornflower = '#5579f0',
-    violet     = '#6348ab',
+    pale_violet = '#7f67bf',
 
     blue_whale = '#364e69',
     blue_smoke = '#2e4258',
@@ -98,7 +98,7 @@ local components = {
     visual = palette.navy_blue,
     tabsel = '#697077',
     tags = '#e07980',
-    title = palette.violet,
+    title = palette.pale_violet,
 
     -- syntax
     comment = palette.blue_whale,
