@@ -20,7 +20,7 @@ return {
     -- BlinkCmpGhostText
     -- BlinkCmpDoc
     BlinkCmpDocBorder = { link = 'Border' },
-    -- BlinkCmpDocSeparator
+    BlinkCmpDocSeparator = { link = 'Border' },
     -- BlinkCmpDocCursorLine
     -- BlinkCmpSignatureHelp
     BlinkCmpSignatureHelpBorder = { link = 'Border' },
