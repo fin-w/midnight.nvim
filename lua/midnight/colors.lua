@@ -6,6 +6,8 @@ local palette = {
     graphite    = '#101821',
     black       = '#000000',
 
+    peach       = '#ffb3b8',
+
     pumpkin     = '#e0a076',
     raw_umber   = '#52473b',
     earth       = '#3e352c',
@@ -69,7 +71,7 @@ local palette = {
         [7] = '#3f5b79',
     },
     red         = {
-        [1] = '#ffb3b8',
+        [1] = '#ffb3b8', -- Unused
         [2] = '#ff8389',
         [3] = '#fa4d56',
         [4] = '#da1e28',
