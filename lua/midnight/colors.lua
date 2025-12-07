@@ -11,6 +11,8 @@ local palette = {
     earth       = '#3e352c',
 
     cornflower  = '#5579f0',
+    blueberry   = '#2b509d',
+
     pale_violet = '#7f67bf',
 
     blue_whale  = '#364e69',
@@ -102,7 +104,7 @@ local components = {
 
     -- syntax
     comment = palette.blue_whale,
-    constant = '#5080ff',
+    constant = palette.cornflower,
     field = '#7ac098',
     keyword = '#a665d0',
     literal = '#ca7050',
