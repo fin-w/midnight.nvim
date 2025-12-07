@@ -21,7 +21,7 @@ return {
     FoldColumn = { link = 'Folded' },
     SignColumn = { bg = c.bg },
     IncSearch = { link = 'Substitute' },
-    Substitute = { fg = p.white, bg = p.peach },
+    Substitute = { fg = p.black, bg = p.peach },
     LineNr = { fg = p.blue_whale },
     LspInlayHint = { fg = c.hint },
     CursorLineNr = { fg = p.gray[1], bg = p.graphite },
